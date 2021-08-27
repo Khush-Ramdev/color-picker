@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    color: white;
+}
+
+.navbar{
+    height: 10vh;
+    color:white
+}
+
+.container-md{
+    height: 90vh;
+}
+
+.color{
+    background-color: #2A0944;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}

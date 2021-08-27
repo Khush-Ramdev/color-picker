@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color flipper</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="navbar navbar-dark bg-dark justify-content-evenly">
+      <h4>Color flipper</h4>
+      <div class="nav nav-pills">
+        <a class="nav-link"  href="index.html"
+          >simple</a
+        >
+        <a class="nav-link active"  href="hex.html">hex</a>
+      </div>
+    </div>
+
+    <div
+      class="
+        container-md
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+      "
+    >
+      <div class="row color">
+        <h2>Background color : <span id="value">#ffffff</span></h2>
+      </div>
+      <div class="row">
+        <div>
+          <button class="btn btn-outline-primary" id="click-hex">Click me</button>
+        </div>
+      </div>
+    </div>
+    <script src="hex.js"></script>
+  </body>
+</html>
